@@ -1,0 +1,33 @@
+a.subMenu:link { color: white; background-color: #669966; text-decoration: none;}
+a.subMenu:visited { color: white; background-color: #669966; text-decoration: none;}
+a.subMenu:active { color: white; background-color: #669966; text-decoration: none;}
+a.subMenu:hover { color: yellow; background-color: #669966; text-decoration: none;}
+a.subMenu:focus { color: red; background-color: #669966; text-decoration: none;}
+
+td.subMenuCell 
+	{ 
+	vertical-align: middle; 
+      	font-family: arial, helvetica, verdana, sans-serif;
+      	font-size: 70%; 
+	font-weight: bold;
+      	color: white;
+      	background-color: #669966;
+      	height: 14px; 
+	}
+
+a.sideMenu:link { color: black; background-color: #cccc99; text-decoration: none;}
+a.sideMenu:visited { color: black; background-color: #cccc99; text-decoration: none;}
+a.sideMenu:active { color: black; background-color: #cccc99; text-decoration: none;}
+a.sideMenu:hover { color: black; background-color: #cccc99; text-decoration: none;}
+a.sideMenu:focus { color: black; background-color: #cccc99; text-decoration: none;}
+
+td.sideMenuCell 
+	{ 
+	vertical-align: middle; 
+      	font-family: arial, helvetica, verdana, sans-serif;
+      	font-size: 70%; 
+	font-weight: bold;
+      	color: black;
+      	background-color: #cccc99;
+      	height: 14px; 
+	}

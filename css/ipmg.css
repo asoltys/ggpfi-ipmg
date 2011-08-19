@@ -1,0 +1,140 @@
+/* CSS Document */
+
+H1 {
+	color: navy;
+	font-size: 110%;
+}
+
+H2 {
+	font-weight: bolder;
+	font-size: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	padding: 0.5em 0 0.5em 0;
+	margin: 0;
+}
+
+p.povervi {
+	padding: 0;
+	margin: 0;
+}
+
+p.tab:first-letter {
+	padding-left: 2em;
+}
+
+p.header {
+	padding-top: 2em;
+	}
+
+p.subheader {
+	padding-top: 1em;
+	}
+
+ul {
+	font-size:85%;
+}
+
+ul#povervi {
+	font-size:85%;
+	padding-left: 1em;
+	margin: 0 0 0 1em;
+	}
+	
+table.povervi {
+	border: 1px solid #666;
+	font-size:85%;
+	padding: 1px;
+	text-align: left;
+	width: 90%;
+	}
+	
+table.povervi th {
+	background-color: #000;
+	color: #fff;
+	font-size:95%;
+	}
+	
+table.povervi th.center {
+	text-align: center;
+	padding-left: 0;
+	}
+
+table.povervi th, table.povervi td {
+	padding-left: 5px;
+	}
+	
+table.povervi td.left {
+	width: 55%;
+	}
+	
+table.povervi td.right {
+	padding-left: 0;
+	text-align: center;
+	}
+
+#menu {
+    position: relative;
+    width: 132px;
+	height: 500px;
+
+    margin: 0px;
+	border: 1px dotted black;
+	padding: 0;
+
+    background: url(../images/menu_image.gif);
+}
+
+#menu li {
+    position: absolute;
+	top: 0;
+
+    margin: 0;
+	padding: 0;
+	
+	list-style: none;
+}
+
+#menu li, #menu a {
+	position: absolute;
+	display: block; 
+	width: 132px;
+	border: 1px solid #FFC0CB;
+}
+	
+  #panel1b a{top: 0; height: 58px;}
+  #panel2b a{top: 58px; height: 29px;}
+  #panel3b a{top: 87px; height: 46px;}
+  #panel4b a{top: 133px; height: 38px;}
+  #panel5b a{top: 171px; height: 36px;}
+  #panel6b a{top: 207px; height: 36px;}
+  #panel7b a{top: 243px; height: 35px;}
+  #panel8b a{top: 278px; height: 49px;}
+  #panel9b a{top: 337px; height: 36px;}
+  #panel10b a{top: 374px; height: 35px;}
+  #panel11b a{top: 409px; height: 38px;}
+  #panel12b a{top: 447px; height: 66px;}
+  
+  #panel1b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px 0px no-repeat;}
+  #panel2b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -57px no-repeat;}
+  #panel3b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -86px no-repeat;}
+  #panel4b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -133px no-repeat;}
+  #panel5b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -170px no-repeat;}
+  #panel6b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -208px no-repeat;}
+  #panel7b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -244px no-repeat;}
+  #panel8b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -279px no-repeat;}
+  #panel9b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -338px no-repeat;}
+  #panel10b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -374px no-repeat;}
+  #panel11b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -409px no-repeat;}
+  #panel12b a:hover {border: 1px solid lime; background: transparent url(../images/menu_image.gif) -132px -447px no-repeat;}
+
+
+  .offertable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
